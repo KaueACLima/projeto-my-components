@@ -1,0 +1,9 @@
+:root{
+  --primary-color: #FC7833;
+  --secondary-color: #31333B;    
+}
+
+.main-header{
+    width: 260px;
+    background-color: var(--secondary-color);
+}
