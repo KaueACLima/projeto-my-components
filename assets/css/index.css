@@ -9,6 +9,16 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-size: 4rem;
+  color: #7B7B7B;
+  margin-top: 2.4rem;
+}
+
+h2, h3, h4, h5, h6 {
+  background-color: var(--primary-color-light);
+}
+
 .main-header {
   flex: 0 0 26rem;
   background-color: var(--secondary-color);
@@ -17,6 +27,7 @@ body {
 .main {
   flex: 1 0;
   background-color: var(--secondary-color-light);
+  padding: 6.5rem 6rem 7.5rem;
 }
 
 a {
