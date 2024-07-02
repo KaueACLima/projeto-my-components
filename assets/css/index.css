@@ -7,7 +7,6 @@ body {
   display: flex;
   color: #e7e7e7;
   min-height: 100vh;
-  background-color: #fff;
 }
 
 .main-header {
@@ -34,6 +33,7 @@ a {
 }
 
 .main-nav {
+  text-aling: right;
   padding: 6.5rem 2.4rem 2.4rem;
 }
 
@@ -53,4 +53,9 @@ a {
 .main-nav ul a:hover {
   background-color: var(--secondary-color-light);
   padding-right: 1rem;
+}
+
+.main-nav li {
+  border-bottom: 1px solid #7B7B7B;
+  padding: .4rem 0;
 }
