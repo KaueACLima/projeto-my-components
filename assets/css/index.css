@@ -73,6 +73,7 @@ a {
 .main-nav ul a:hover {
   background-color: var(--secondary-color-light);
   padding-right: 1rem;
+  border: 1px solid;
 }
 
 
